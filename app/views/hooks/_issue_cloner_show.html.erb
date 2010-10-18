@@ -1,0 +1,10 @@
+<% if issue.is_clone_issue -%>
+<tr>
+    <th><%= l(:postpone_clone_issue)%>:</th>
+    <td><%= issue.postpone_clone_issue %></td>
+    <% unless issue.date_of_clone_issue.nil? -%>
+    <th><%= l(:date_of_clone_issue)%>:</th>
+    <td><%= format_date( issue.date_of_clone_issue ) %></td>
+    <% end -%>
+</tr>
+<% end -%>

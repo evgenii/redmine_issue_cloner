@@ -1,0 +1,12 @@
+<p><%= form.check_box :is_clone_issue, :onClick => "$('clone_issue_attributes').toggle()" %></p>
+<div class="attributes" id="clone_issue_attributes" 
+  style="display:<%= issue.is_clone_issue ? 'block' : 'none' %>">
+  
+  <div class="splitcontentleft"><p><%= form.text_field :postpone_clone_issue, :size => 3 %></p></div>
+  <div class="splitcontentright">
+    <p><%= form.text_field :date_of_clone_issue, :size => 10 %>
+    <%= calendar_for('issue_date_of_clone_issue') %></p>
+  </div>
+  <div style="clear: both;"> </div>
+</div>
+

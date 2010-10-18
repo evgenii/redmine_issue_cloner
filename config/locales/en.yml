@@ -1,0 +1,10 @@
+# English strings go here
+en:
+  field_is_clone_issue: "Clone this issue"
+  field_postpone_clone_issue: "Postpone due date on, days"
+  field_date_of_clone_issue: "Clone on"
+
+  is_clone_issue: "Clone this issue"
+  postpone_clone_issue: "Postpone due date on, days"
+  date_of_clone_issue: "Clone on"
+

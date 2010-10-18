@@ -1,0 +1,9 @@
+uk:
+  field_is_clone_issue: "Клонувати задачу"
+  field_postpone_clone_issue: "Перенести на, день(ів)"
+  field_date_of_clone_issue: "Запланувати клонування на"
+
+  is_clone_issue: "Клонувати задачу"
+  postpone_clone_issue: "Перенести на, день(ів)"
+  date_of_clone_issue: "Клонування заплановано на"
+
